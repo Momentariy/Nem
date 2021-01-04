@@ -1,0 +1,28 @@
+name: NemanCraft
+main: MomentariyModder\NemanCraft\Main
+version: 0.0.1
+api: 3.17.0
+author: MomentariyModder
+website: vk.com/stepansamuta
+commands:
+  helperlvl1:
+    description: Выдать Хелпера 1-ого уровня
+    permission: helperlvl1.nemancraft
+  helperlvl2:
+    description: Выдать Хелпера 2-ого уровня
+    permission: helperlvl2.nemancraft
+  helperlvl3:
+    description: Выдать Хелпера 3-ого уровня
+    permission: helperlvl3.nemancraft
+  helperlvl4:
+    description: Выдать Хелпера 4-ого уровня
+    permission: helperlvl4.nemancraft
+permissions:
+  helperlvl1.nemancraft:
+    default: op
+  helperlvl2.nemancraft:
+    default: op
+  helperlvl3.nemancraft:
+    default: op
+  helperlvl4.nemancraft:
+    default: op
